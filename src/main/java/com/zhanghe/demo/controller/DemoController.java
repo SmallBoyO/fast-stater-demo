@@ -82,4 +82,5 @@ public class DemoController {
 		userService.inserUser(user);
 		return new ReturnValue<User>(1, "").toJson(); 
 	}
+	
 }

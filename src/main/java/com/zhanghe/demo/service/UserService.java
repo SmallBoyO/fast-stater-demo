@@ -13,4 +13,6 @@ public interface UserService {
 	public PageUtil<User> getUserListByPage(UserListVO user,PageUtil<User> page);
 	
 	public void inserUser(User user);
+	
+	public void test();
 }
