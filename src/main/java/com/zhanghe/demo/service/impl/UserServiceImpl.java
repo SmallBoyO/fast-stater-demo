@@ -54,4 +54,10 @@ public class UserServiceImpl implements UserService {
 		userMapper.insert(user);
 	}
 	
+	
+	public void test(){
+		System.out.println(userMapper.CountUser());
+		System.out.println(userMapper.CountUser());
+		System.out.println(userMapper.CountUser());
+	}
 }
